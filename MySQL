@@ -12,5 +12,6 @@ CREATE TABLE produto (
   id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
   produto VARCHAR (100),
   quantidade INT (3),
-  preco DECIMAL(4, 2)
+  preco DECIMAL(4, 2),
+  total DECIMAL(4, 2)
 );
