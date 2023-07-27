@@ -1,0 +1,16 @@
+CREATE DATABASE bancoetec;
+USE bancoetec;
+
+CREATE TABLE nota (
+  id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  nota VARCHAR (100),
+  quantidade INT (3),
+  total INT (5)
+);
+
+CREATE TABLE produto (
+  id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  produto VARCHAR (100),
+  quantidade INT (3),
+  preco DECIMAL(4, 2)
+);
