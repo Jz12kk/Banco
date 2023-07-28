@@ -4,14 +4,14 @@ USE bancoetec;
 CREATE TABLE nota (
   id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
   nota VARCHAR (100),
-  quantidade INT (3),
-  total INT (5)
+  quantidade INT (11),
+  total INT (11)
 );
 
 CREATE TABLE produto (
   id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
   produto VARCHAR (100),
-  quantidade INT (3),
-  preco DECIMAL(4, 2),
-  total DECIMAL(4, 2)
+  quantidade INT (11),
+  preco DECIMAL(11, 2),
+  total DECIMAL(11, 2)
 );
