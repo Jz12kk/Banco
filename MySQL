@@ -15,6 +15,11 @@ CREATE TABLE produto (
   preco DECIMAL(11, 2),
   total DECIMAL(11, 2)
 );
+INSERT INTO `nota` (`id`, `nota`, `quantidade`, `total`) VALUES (NULL, '5', '391', '1955');
+INSERT INTO `nota` (`id`, `nota`, `quantidade`, `total`) VALUES (NULL, '10', '360', '3600');
+INSERT INTO `nota` (`id`, `nota`, `quantidade`, `total`) VALUES (NULL, '20', '412', '8240');
+INSERT INTO `nota` (`id`, `nota`, `quantidade`, `total`) VALUES (NULL, '50', '416', '20800');
+INSERT INTO `nota` (`id`, `nota`, `quantidade`, `total`) VALUES (NULL, '100', '254', '25400');
 INSERT INTO `produto` (`id`, `produto`, `quantidade`, `preco`, `total`) VALUES (NULL, 'vestido', '0', '40', '0');
 INSERT INTO `produto` (`id`, `produto`, `quantidade`, `preco`, `total`) VALUES (NULL, 'camiseta', '0', '30', '0');
 INSERT INTO `produto` (`id`, `produto`, `quantidade`, `preco`, `total`) VALUES (NULL, 'cropped', '0', '15', '0');
